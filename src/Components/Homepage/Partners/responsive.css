@@ -1,0 +1,23 @@
+@media screen and (max-width: 1025px) {
+    .partners .slider .slider-track .slide {
+        height: 75px;
+        width: 475px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .partners .slider .slider-track .slide {
+        height: 50px;
+        width: 450px;
+    }
+
+    .partners .bottom {margin: 10px 0}
+
+    .partners .top {
+        margin-left: 4rem;
+    }
+    
+    .partners .bottom {
+        margin-right: 4rem;
+    }
+}

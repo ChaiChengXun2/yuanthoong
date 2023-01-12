@@ -1,0 +1,29 @@
+.person-introduction {
+    width: 75%;
+    height: max-content;
+    padding: 50px;
+    border-bottom: 1px solid var(--disabled-colour);
+    margin-bottom: 50px;
+}
+
+.person-introduction.even {
+    flex-direction: row-reverse;
+}
+
+.person-introduction.odd {
+    flex-direction: row;
+}
+
+.person-introduction img {
+    width: 350px;
+    border-radius: var(--standard-radius);
+}
+
+.person-introduction .information {
+    flex-direction: column;
+    width: 60%;
+}
+
+.person-introduction .information .details {
+    margin: 20px 50px;
+}

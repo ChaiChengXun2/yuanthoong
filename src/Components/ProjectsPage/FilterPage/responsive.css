@@ -1,0 +1,29 @@
+@media screen and (max-width: 1025px) {
+    .filter-page {
+        height: 70vh;
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .filter-page {
+        height: 80vh;
+        width: 100vw;
+    }
+
+    .filter-page .choices {
+        margin: 50px 0 0 30px;
+        width: 85%;
+    }
+}
+
+@media screen and (width: 768px) {
+    .filter-page {
+        height: 70vh;
+        width: 70vw;
+    }
+
+    .filter-page .choices {
+        width: 90%;
+    }
+}   

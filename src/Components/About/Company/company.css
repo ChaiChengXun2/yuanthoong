@@ -1,0 +1,36 @@
+.high {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.portrait-container {
+    z-index: 1;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid var(--disabled-colour);
+}
+
+.high .information {
+    height: max-content;
+    width: 60%;
+    background: white;
+    margin-top: -50px;
+    flex-direction: column;
+    border-radius: var(--standard-radius);
+    padding: 65px 25px 50px 25px;
+}
+
+.high .information .name {
+    font-size: 3rem;
+}
+
+.high .information .des {
+    color: var(--disabled-colour);
+}
+
+.high .information .details {
+    margin: 20px 50px 0 50px;
+}

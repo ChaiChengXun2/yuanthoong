@@ -1,0 +1,63 @@
+.container {flex-direction: column}
+
+.project-details {
+    height: 100vh;
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.project-details .image-container {
+    width: 40%;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: 150px;
+}
+
+.project-details .information {
+    width: 55%;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.project-details .image-container div {
+    flex-direction: row;
+    margin-top: 20px;
+    width: 90%;
+    min-height: 15%;
+}
+
+.project-details .image-container .banner {
+    width: 90%;
+    border-radius: var(--standard-radius);
+    min-height: 50%;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.project-details .image-container .image {
+    width: 32.5%;
+    border-radius: var(--standard-radius);
+    background-color: lightgrey;
+    height: 100%;
+    text-align: center;
+}
+
+.project-details .information .header {margin: 0 30px}
+.project-details .information .name {font-size: 2rem}
+
+.project-details .information .partner {
+    font-size: 1rem;
+    color: var(--disabled-colour);
+    margin: 10px 0;
+}
+
+.project-details .information .partner span { 
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.project-details .information .details {margin: 25px 30px 0 30px}
+.project-details .information .information-header {font-size: 1.5rem}
+.project-details .information .details .overview-information {font-size: 1rem}
+.project-details .information .details .points {margin-bottom: 25px}

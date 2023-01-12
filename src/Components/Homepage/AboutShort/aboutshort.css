@@ -1,0 +1,6 @@
+.short-about {
+    min-height: 20vh;
+    flex-direction: column;
+}
+
+.short-about .information {margin: 0 7rem 50px 7rem}

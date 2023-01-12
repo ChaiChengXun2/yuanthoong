@@ -1,0 +1,44 @@
+.project {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.project img {
+    width: 90%;
+    height: 70%;
+    border-radius: var(--standard-radius);
+    text-align: center;
+    background: lightgray;
+}
+
+.project .project-information {
+    flex-direction: column;
+    background: white;
+    width: 100%;
+    border-radius: var(--standard-radius);
+    margin-top: -25px;
+    padding: 15px 0; 
+}
+
+.project .project-information div {width: 85%}
+
+.project .project-information .project-title {
+    font-size: 1.5rem;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.project .project-information .project-type {
+    font-size: 1rem;
+    color: var(--disabled-colour);
+    text-align: center;
+}
+
+.project .project-information .project-type svg {
+    font-size: 1rem;
+    margin: 0 5px 0 2.5px;
+}

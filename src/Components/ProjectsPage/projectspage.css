@@ -1,0 +1,60 @@
+.all-projects {
+    flex-direction: column;
+    padding-top: 75px;
+}
+
+.all-projects .search-bar { 
+    flex-direction: row;
+    width: 100%;
+}
+
+.all-projects .search-bar .search {
+    width: 40%;
+    position: relative;
+    margin: 30px 0 50px 0;
+    border: 2px solid var(--primary-colour);
+    border-radius: var(--standard-radius);
+}
+
+.all-projects .search-bar .search input { 
+    width: 100%;
+    padding: 8px 10px; 
+    height: 2rem;
+    z-index: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.all-projects .search-bar .search label {
+    position: absolute; 
+    left: 10px;
+    cursor: text;
+    transition: all 300ms ease; 
+    background-color: transparent;
+    padding: 0 2.5px;
+}
+.all-projects .search-bar .search input:focus ~ label,
+.all-projects .search-bar .search input:not(:placeholder-shown) ~ label {
+    font-size: 0.8rem;
+    top: -12.5px;   
+    z-index: 2;
+    background: var(--main-colour);
+}
+
+.all-projects .search-bar .search:hover, .all-projects .search-bar .filter:hover { 
+    border-color: var(--text-colour);
+}
+
+.all-projects .search-bar .filter {
+    padding: 8px 10px; 
+    height: 2rem;
+    margin: 30px 0 5px 5px;
+    border: 2px solid var(--primary-colour);
+    border-radius: var(--standard-radius);
+}
+
+.all-projects .search-bar .filter svg {    
+    font-size: 1.1rem;
+    color: var(--text-colour);
+}

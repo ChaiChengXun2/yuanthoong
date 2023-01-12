@@ -1,0 +1,18 @@
+.choice {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.choice .header {
+    border-bottom: 1px solid var(--disabled-colour);
+    padding: 10px 0;
+    text-transform: capitalize;
+}
+
+.choice .header, .choice .select .selection {
+    font-size: 1rem;
+}
+
+.choice .header svg, .choice .select .selection svg {
+    font-size: 1.2rem;
+}

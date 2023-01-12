@@ -1,0 +1,40 @@
+.partners {
+    height: auto;
+    flex-direction: column; 
+}
+
+.partners .top, .partners .bottom {margin: 40px 0}
+
+.partners .top {
+    align-self: flex-start;
+    margin-left: 7rem;
+}
+
+.partners .bottom {
+    align-self: flex-end;
+    margin-right: 7rem;
+}
+
+@keyframes heeheeheehar {
+    0% {transform: translateX(0)}
+    100% {transform: translateX(-750px)}
+}
+
+.partners .slider {
+    height: 100px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.partners .slider .slider-track {
+    animation: heeheeheehar 8s linear infinite alternate;
+    display: flex;
+    margin: 0 40px;
+}
+
+.partners .slider .slider-track .slide {
+    height: 100px;
+    width: 500px;
+    object-fit: contain;
+    margin: 0 50px;
+}

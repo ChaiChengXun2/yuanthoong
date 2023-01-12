@@ -1,0 +1,18 @@
+.back {
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    padding: 20px;
+    background: var(--main-colour);
+}
+
+.back .default-button {
+    width: 20%;
+    margin: 0 20px; 
+}
+
+.back .default-button svg, .back .default-button p {
+    font-size: 1rem;
+    color: var(--primary-colour);
+}
