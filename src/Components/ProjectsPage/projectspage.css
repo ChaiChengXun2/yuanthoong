@@ -42,9 +42,7 @@
     background: var(--main-colour);
 }
 
-.all-projects .search-bar .search:hover, .all-projects .search-bar .filter:hover { 
-    border-color: var(--text-colour);
-}
+.all-projects .search-bar .search:hover, .all-projects .search-bar .filter:hover {border-color: var(--text-colour)}
 
 .all-projects .search-bar .filter {
     padding: 8px 10px; 

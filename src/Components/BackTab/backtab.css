@@ -5,6 +5,7 @@
     top: 0;
     padding: 20px;
     background: var(--main-colour);
+    border-bottom: 1px solid var(--disabled-colour);
 }
 
 .back .default-button {

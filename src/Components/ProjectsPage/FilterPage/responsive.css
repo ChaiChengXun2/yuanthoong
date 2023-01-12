@@ -23,7 +23,5 @@
         width: 70vw;
     }
 
-    .filter-page .choices {
-        width: 90%;
-    }
+    .filter-page .choices {width: 90%}
 }   

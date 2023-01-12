@@ -14,9 +14,7 @@
     text-decoration: none;
 }
 
-.navigation-bar .brand img {
-    width: 75px;
-}
+.navigation-bar .brand img {width: 75px}
 
 .navigation-bar .hamburger {
     margin-right: 7rem;

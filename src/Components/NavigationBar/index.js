@@ -11,7 +11,7 @@ const NavigationBar = () => {
 
   return (
     <nav className='flex-center-between navigation-bar'>
-      <NavLink className="brand default-text flex-center-center" to='/'><img src="logo.PNG" alt="YuanThoong Logo" /></NavLink>
+      <NavLink className="brand default-text flex-center-center" to='/'><img src="https://ik.imagekit.io/yuanthoong/logo.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1673525663199" alt="YuanThoong Logo" /></NavLink>
       <div className="hamburger" onClick={() => setOpenMenu(true)}><GiHamburgerMenu /></div>
       <NavBar openMenu={openMenu} setOpenMenu={setOpenMenu} />
     </nav>

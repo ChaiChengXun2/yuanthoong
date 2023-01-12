@@ -14,9 +14,7 @@
     flex-direction: column;
 }
 
-.contact .contact-me .default-button svg {
-    margin-right: 5px;
-}
+.contact .contact-me .default-button svg {margin-right: 5px}
 
 .contact .contact-me .default-button {
     color: var(--text-colour);

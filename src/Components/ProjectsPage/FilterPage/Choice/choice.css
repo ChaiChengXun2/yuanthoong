@@ -9,10 +9,5 @@
     text-transform: capitalize;
 }
 
-.choice .header, .choice .select .selection {
-    font-size: 1rem;
-}
-
-.choice .header svg, .choice .select .selection svg {
-    font-size: 1.2rem;
-}
+.choice .header, .choice .select .selection {font-size: 1rem}
+.choice .header svg, .choice .select .selection svg {font-size: 1.2rem}

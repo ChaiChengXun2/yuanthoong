@@ -1,11 +1,7 @@
 @media screen and (max-width: 1025px) {
-    .contact .contact-me {
-        width: 70vw;
-    }
+    .contact .contact-me {width: 70vw}
 }
 
 @media screen and (max-width: 768px) {
-    .contact .contact-me {
-        width: 65vw;
-    }
+    .contact .contact-me {width: 65vw}
 }

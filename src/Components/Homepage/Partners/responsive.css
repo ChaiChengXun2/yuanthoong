@@ -12,12 +12,6 @@
     }
 
     .partners .bottom {margin: 10px 0}
-
-    .partners .top {
-        margin-left: 4rem;
-    }
-    
-    .partners .bottom {
-        margin-right: 4rem;
-    }
+    .partners .top {margin-left: 4rem}
+    .partners .bottom {margin-right: 4rem}
 }

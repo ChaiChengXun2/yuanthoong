@@ -4,9 +4,7 @@
         align-items: center;
     }   
     
-    .project-details .image-container {
-        width: 60%;
-    }
+    .project-details .image-container {width: 60%}
     
     .project-details .information {
         width: 80%;
@@ -20,9 +18,7 @@
         align-items: center;
     }   
     
-    .project-details .image-container {
-        width: 90%;
-    }
+    .project-details .image-container {width: 90%}
     
     .project-details .information {
         width: 100%;

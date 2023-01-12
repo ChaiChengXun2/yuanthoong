@@ -6,7 +6,7 @@ const Company = () => {
   return (
     <div className='high flex-center-center'>
       <div className="portrait-container flex-center-center">
-        <img src="logo.PNG" alt="YuanThoong Logo" />
+        <img src="https://ik.imagekit.io/yuanthoong/logo.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1673525663199" alt="YuanThoong Logo" />
       </div>
       <div className="information flex-center-center">
         <div className="name default-title">YuanThoong</div>

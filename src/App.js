@@ -27,6 +27,10 @@ const App = () => {
     });
   }, [])
 
+  useEffect(() => {
+    document.title = "Yuan Thoong SDN BHD | Construction and Renovations";
+  }, [])
+
   return (
     <BrowserRouter>
       <ScrollToTop />

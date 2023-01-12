@@ -31,9 +31,7 @@
     right: 20px;
 }
 
-.filter-page .close svg {
-    font-size: 1.5rem;
-}
+.filter-page .close svg {font-size: 1.5rem}
 
 .filter-page .choices {
     margin: 50px 0 0 50px;
@@ -45,13 +43,8 @@
     margin-bottom: 50px;
 }
 
-.filter-page .complete svg {
-    margin: 5px;
-}
-
-.filter-page .complete button {
-    margin-left: 10px;
-}
+.filter-page .complete svg {margin: 5px}
+.filter-page .complete button {margin-left: 10px}
 
 @keyframes enter {
     0% {transform: translateX(50%)} 

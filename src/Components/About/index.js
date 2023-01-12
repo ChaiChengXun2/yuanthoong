@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./about.css";
 import Footer from "../Footer";
 import Title from "../Title";
@@ -7,6 +7,11 @@ import PersonIntroduction from './PersonIntroduction';
 import NavigationBar from '../NavigationBar';
 
 const About = () => {
+
+  useEffect(() => {
+    document.title = "About Us | Yuan Thoong SDN BHD";
+  }, [])
+
   return (
     <div className='about content flex-center-center'>
       <NavigationBar />

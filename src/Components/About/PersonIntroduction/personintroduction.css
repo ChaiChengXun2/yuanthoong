@@ -6,13 +6,8 @@
     margin-bottom: 50px;
 }
 
-.person-introduction.even {
-    flex-direction: row-reverse;
-}
-
-.person-introduction.odd {
-    flex-direction: row;
-}
+.person-introduction.even {flex-direction: row-reverse}
+.person-introduction.odd {flex-direction: row}
 
 .person-introduction img {
     width: 350px;
@@ -24,6 +19,4 @@
     width: 60%;
 }
 
-.person-introduction .information .details {
-    margin: 20px 50px;
-}
+.person-introduction .information .details {margin: 20px 50px}

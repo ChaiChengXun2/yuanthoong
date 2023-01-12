@@ -23,14 +23,6 @@
     padding: 65px 25px 50px 25px;
 }
 
-.high .information .name {
-    font-size: 3rem;
-}
-
-.high .information .des {
-    color: var(--disabled-colour);
-}
-
-.high .information .details {
-    margin: 20px 50px 0 50px;
-}
+.high .information .name {font-size: 3rem}
+.high .information .des {color: var(--disabled-colour)}
+.high .information .details {margin: 20px 50px 0 50px}
