@@ -1,0 +1,26 @@
+.navigation-bar {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    padding: 20px 0;
+    background: var(--main-colour);
+    top: 0;
+    border-bottom: 1px solid var(--text-colour);
+}
+
+.navigation-bar .brand {
+    color: var(--main-colour);
+    margin-left: 7rem;
+    text-decoration: none;
+}
+
+.navigation-bar .brand img {
+    width: 75px;
+}
+
+.navigation-bar .hamburger {
+    margin-right: 7rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    color: var(--text-colour);
+}

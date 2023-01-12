@@ -1,8 +1,0 @@
-.button {
-    font-size: 1.05rem;
-    text-decoration: none;
-    color: var(--primary-colour);
-    font-weight: 500;
-}
-
-.button:hover {color: var(--text-colour)}

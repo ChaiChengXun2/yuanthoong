@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import "./projectspage.css";
 import Title from "../Title";
 import Project from '../Project';
-import NavBar from "../NavBar";
 import Footer from "../Footer";
 import { FiFilter } from "react-icons/fi";
 import FilterPage from './FilterPage';
+import NavigationBar from "../NavigationBar";
 
 const ProjectsPage = ({ ccx }) => {
 
@@ -68,7 +68,7 @@ const ProjectsPage = ({ ccx }) => {
 
   return (
     <div className='all-projects content flex-center-center'>
-      <NavBar />
+      <NavigationBar />
       <Title title='All Projects' sub='All Our Experiences' />
       <FilterPage showModal={showModal} setShowModal={setShowModal} setData={setData}/>
       <section className='search-bar flex-start-center'>

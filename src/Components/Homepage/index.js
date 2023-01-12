@@ -4,7 +4,7 @@ import LandingPage from './LandingPage'
 import Partners from './Partners'
 import FeaturedProjects from "./FeaturedProjects";
 import Footer from "../Footer";
-import NavBar from '../NavBar';
+import NavigationBar from "../NavigationBar";
 
 const Homepage = ({ ccx }) => {
 
@@ -14,7 +14,7 @@ const Homepage = ({ ccx }) => {
 
   return (
     <>
-      <NavBar />
+      <NavigationBar />
       <LandingPage />
       <AboutShort />
       <Partners />
