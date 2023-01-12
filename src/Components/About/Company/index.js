@@ -1,5 +1,6 @@
 import React from 'react';
 import "./company.css";
+import "./responsive.css";
 
 const Company = () => {
   return (

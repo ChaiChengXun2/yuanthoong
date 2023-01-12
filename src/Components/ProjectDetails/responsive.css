@@ -1,5 +1,31 @@
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1200px) {
     .project-details {
         flex-direction: column;
+        align-items: center;
+    }   
+    
+    .project-details .image-container {
+        width: 60%;
+    }
+    
+    .project-details .information {
+        width: 80%;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .project-details {
+        flex-direction: column;
+        align-items: center;
+    }   
+    
+    .project-details .image-container {
+        width: 90%;
+    }
+    
+    .project-details .information {
+        width: 100%;
+        margin-top: 50px;
     }
 }

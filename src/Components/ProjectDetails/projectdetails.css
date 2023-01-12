@@ -1,23 +1,23 @@
 .container {flex-direction: column}
 
 .project-details {
-    height: 100vh;
+    height: max-content;
     width: 100%;
     flex-direction: row;
-    margin-bottom: 50px;
 }
 
 .project-details .image-container {
     width: 40%;
     flex-direction: column;
-    height: 100vh;
     margin-top: 150px;
+    height: max-content;
 }
 
 .project-details .information {
     width: 55%;
     flex-direction: column;
     margin-top: 150px;
+    height: max-content;
 }
 
 .project-details .image-container div {
@@ -60,4 +60,7 @@
 .project-details .information .details {margin: 25px 30px 0 30px}
 .project-details .information .information-header {font-size: 1.5rem}
 .project-details .information .details .overview-information {font-size: 1rem}
-.project-details .information .details .points {margin-bottom: 25px}
+
+.container .contact {
+    margin-top: 75px;
+}

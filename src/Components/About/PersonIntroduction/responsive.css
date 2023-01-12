@@ -1,0 +1,33 @@
+@media screen and (max-width: 1025px) {
+    .person-introduction {
+        width: 85%;
+        padding: 25px;
+    }
+    
+    .person-introduction .information .details {
+        margin: 20px 30px;
+    }
+
+    .person-introduction img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .person-introduction.even, .person-introduction.odd {
+        flex-direction: column;
+    }
+
+    .person-introduction img {
+        width: 250px;
+    }
+    
+    .person-introduction .information {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .person-introduction .information .details {
+        font-size: 1.25rem;
+    }
+}

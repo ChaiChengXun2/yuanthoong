@@ -1,0 +1,17 @@
+@media screen and (max-width: 1025px) {
+    .high .information {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .high .information {
+        padding: 65px 10px 50px 10px;
+        width: 85%;
+    }
+
+    .high .information .details {
+        margin: 20px 25px 0 25px;
+        font-size: 1.25rem;
+    }
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import "./personintroduction.css";
+import "./responsive.css";
 
 const PersonIntroduction = ({ position, name, role, description }) => {
   return (
