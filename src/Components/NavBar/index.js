@@ -10,7 +10,7 @@ const NavBar = () => {
       <div className="buttons flex-center-between">
         <Button name="Project" link='projects'/>
         <Button name="About" link='about'/>
-        <Button name="Contact" link='projects'/>
+        <Button name="Contact" link='projects'/> 
       </div>
     </nav>
   )
